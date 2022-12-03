@@ -4,7 +4,6 @@ arr=content.splitlines()
 
 res_arr=[]
 final=[]
-
 def part1():
     for i in arr:
         l=len(i)
@@ -28,9 +27,10 @@ def part2():
         output_set = set(arr[i]) & set(arr[i+1]) & set(arr[i+2])
         res_arr.append(output_set)
     for k in res_arr:
-        if(ord(str(k)[2])>=97 and ord(str(k)[2])<=122):
-            final.append(ord(str(k)[2])-96)
+        s=''.join(k)
+        if(ord(s)>=97 and ord(s)<=122):
+            final.append(ord(s)-96)
         else:
-            final.append(ord(str(k)[2])-38)
+            final.append(ord(s)-38)
     print(sum(final))
-# part2()
+part2()
