@@ -1,0 +1,11 @@
+A - rock - X - 1
+B - paper - Y - 2
+C - scissor - Z - 3
+
+won - 6
+draw - 3
+loss - 0
+
+X - loss
+Y - draw
+Z - win
