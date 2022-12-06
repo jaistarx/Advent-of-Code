@@ -1,0 +1,63 @@
+# for i in range(len(arr)):
+    # arr[i]=arr[i].replace("|"," ")
+#     a=arr[i].split("|")
+#     arr[i]=a[1]
+# # print(arr)
+
+# for j in range(len(arr)):
+#     a=arr[j].split(" ")
+#     for k in range(len(a)):
+#         a[k]=''.join(sorted(a[k]))
+#     arr[j]=a
+# print(arr)
+
+
+# a=arr[0].split(",")
+# a=[int(i) for i in a]
+    # for i in range(256):
+    #     for j in range(len(a)):
+    #         if(a[j]==0):
+    #             a[j]=6
+    #             a.append(8)
+    #         else:
+    #             a[j]=a[j]-1
+    # print(len(a))
+# def part1():
+#     count=0
+#     for i in arr:
+#         for j in i:
+#             if(len(j) in {2,3,4,7}):
+#                 count+=1
+#     print(count)
+# part1()
+
+# def part1():
+#     total=0
+#     for i in arr:
+#         num=""
+#         for j in i:
+#             if(j=="abcdefg"):
+#                 num+="8"
+#             if(j=="abd"):
+#                 num+="7"
+#             if(j=="bcdefg"):
+#                 num+="6"
+#             if(j=="bcdef"):
+#                 num+="5"
+#             if(j=="abef"):
+#                 num+="4"
+#             if(j=="abcdf"):
+#                 num+="3"
+#             if(j=="acdfg"):
+#                 num+="2"
+#             if(j=="ab"):
+#                 num+="1"
+#             if(j=="abcdeg"):
+#                 num+="0"
+        # print(num)
+        # total+=num
+    # print(total)
+# part1()
+# def part2():
+
+# part2()
