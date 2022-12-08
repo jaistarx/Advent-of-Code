@@ -48,6 +48,7 @@ for i in arr:
                 for i in curr.children:
                     if(i.data==item[2]):
                         curr=i
+                        break
         else:
             pass
     elif(item[0].isnumeric()):
